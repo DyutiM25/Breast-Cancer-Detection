@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #load the data
-from google.colab import files
-uploaded=files.upload()
+# from google.colab import files
+# uploaded=files.upload()
 df=pd.read_csv('data.csv')
 df.head(10)
 
