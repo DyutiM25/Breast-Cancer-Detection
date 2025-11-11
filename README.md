@@ -19,6 +19,7 @@ By analyzing medical diagnostic data, the model classifies tumors as **malignant
 
 ---
 
+<a name="overview"></a>
 ## 🔬 Overview
 Cancer is a **heterogeneous disease** with many subtypes, making early diagnosis crucial for effective treatment and patient management.  
 Machine Learning (ML) models can extract meaningful patterns from complex biomedical data, enabling accurate and automated diagnosis.
@@ -27,6 +28,7 @@ In this project, a **Random Forest Classifier**—an ensemble learning method—
 
 ---
 
+<a name="dataset"></a>
 ## 📊 Dataset
 The dataset used is the **Breast Cancer Wisconsin (Diagnostic) Dataset**, available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
 
@@ -38,6 +40,7 @@ The dataset used is the **Breast Cancer Wisconsin (Diagnostic) Dataset**, availa
 
 ---
 
+<a name="technology-stack"></a>
 ## ⚙️ Technology Stack
 - **Python 3.x**
 - **Scikit-learn**
@@ -48,6 +51,7 @@ The dataset used is the **Breast Cancer Wisconsin (Diagnostic) Dataset**, availa
 
 ---
 
+<a name="methodology"></a>
 ## 🧠 Methodology
 1. **Data Preprocessing**
    - Loaded the dataset using Scikit-learn.
@@ -72,6 +76,7 @@ The dataset used is the **Breast Cancer Wisconsin (Diagnostic) Dataset**, availa
 
 ---
 
+<a name="results"></a>
 ## 📈 Results
 - **Model Used:** Random Forest Classifier  
 - **Accuracy Achieved:** **96.50%**  
@@ -80,9 +85,58 @@ The dataset used is the **Breast Cancer Wisconsin (Diagnostic) Dataset**, availa
 
 ---
 
+<a name="installation"></a>
 ## 💻 Installation
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/DyutiM25/Breast-Cancer-Detection.git
 cd Breast-Cancer-Detection
+```
+
+### 2️⃣ Create a Virtual Environment (optional)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3️⃣ Install Dependencies
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+<a name="usage"></a>
+### ▶️ Usage
+Run the notebook or script to train and test the model:
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+Option 1: Using Jupyter Notebook
+jupyter notebook
+Then open breast_cancer_detection.ipynb and run all cells.
+
+Option 2: Using Python Script
+```bash
+python main.py
+```
+The script will:
+Train the model
+Display accuracy and confusion matrix
+Visualize feature importance
+
+<a name="future-work"></a>
+## 🚀 Future Work
+- Apply Deep Learning (ANNs or CNNs) for image-based classification.
+- Integrate the model into a web-based diagnostic application.
+- Experiment with ensemble hybrid models (e.g., SVM + Random Forest).
+- Perform hyperparameter tuning with GridSearchCV for optimized results.
+
+<a name="references"></a>
+## 📚 References
+- UCI Machine Learning Repository – Breast Cancer Wisconsin (Diagnostic) Dataset
+- Scikit-learn Documentation: https://scikit-learn.org/stable/
+- Han, J., Kamber, M., & Pei, J. (2012). Data Mining: Concepts and Techniques.
+
+<a name="author"></a>
+## 👩‍💻 Author
+[Dyuti Mengji](https://github.com/DyutiM25)
+
